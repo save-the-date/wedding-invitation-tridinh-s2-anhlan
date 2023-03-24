@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.fa-heart {
+  position: absolute;
+  animation:  heartMove linear 1;
+  top: -5vh;
+  z-index: 0;
+}
+
+@keyframes heartMove {
+  0%{
+      transform: translateY(-10vh) ;
+  }
+  100%{
+      transform: translateY(600vh) ;
+  }
+}
