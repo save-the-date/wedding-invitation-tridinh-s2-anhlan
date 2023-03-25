@@ -63,7 +63,7 @@ img {
 }
 
 .module-style {
-    padding-top: 10vw;
+    padding-top: 5em;
 }
 
 #openLetter {
@@ -82,6 +82,7 @@ img {
 .event-show {
     background-image: url("https://github.com/save-the-date/wedding-invitation-tridinh-s2-anhlan/raw/main/static/media/TIME-LOVE.png");
     background-size: cover;
+    background-color: rgba(0,0,0,0.4);
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 16px;
@@ -112,7 +113,7 @@ img {
 }
 
 .col-12 img {
-    opacity: 0.8;
+    opacity: 0.9;
     cursor: pointer;
     width: 100%;
 }
