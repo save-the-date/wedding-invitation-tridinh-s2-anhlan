@@ -11,15 +11,21 @@ function createHeart() {
     }
     
     heart.style.left = (Math.random() * 93) + "vw";
-    heart.style.fontSize = (Math.random() * 10) + 25 + "px";
+    heart.style.fontSize = (Math.random() * 5) + 25 + "px";
     heart.style.animationDuration = (Math.random() * 100) + 10 + "s";
     body.appendChild(heart);
 }
-setInterval(createHeart, 200);
+setInterval(createHeart, 400);
 setInterval(function name(params) {
     var heartArr = document.querySelectorAll(".fa-heart")
     if (heartArr.length > 300) {
-       heartArr[0].remove()
+       heartArr[0].remove();
     }
-    //console.log(heartArr);
-}, 200)
+    for (let index = 0; index < heartArr.length; index++) {
+        var curHeart = heartArr[index];
+        var rect = curHeart.getBoundingClientRect();
+        if (rect.bottom > document.documentElement.clientHeight) {
+            curHeart.remove();
+        }
+    }
+}, 400)
