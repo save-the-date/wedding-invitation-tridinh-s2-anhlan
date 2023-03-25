@@ -12,7 +12,7 @@ function createHeart() {
     
     heart.style.left = (Math.random() * 93) + "vw";
     heart.style.fontSize = (Math.random() * 5) + 25 + "px";
-    heart.style.animationDuration = (Math.random() * 100) + 10 + "s";
+    heart.style.animationDuration = (Math.random() * 20) + 60 + "s";
     body.appendChild(heart);
 }
 setInterval(createHeart, 400);
