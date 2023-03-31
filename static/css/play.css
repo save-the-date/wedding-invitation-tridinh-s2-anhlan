@@ -1,0 +1,65 @@
+
+.background-music {
+    position: fixed;
+    z-index: 999;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 16px;
+}
+  
+.background-music-bottom-left {
+    right: auto;
+    left: 10px
+}
+  
+.background-music-bottom-left .background-music-toggle {
+    right: auto;
+    left: 0
+}
+  
+.background-music-embed {
+    position: absolute;
+    right: 0;
+    bottom: -999em;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden
+}
+  
+.background-music-toggle.active~.background-music-embed {
+    bottom: 40px;
+    opacity: 1;
+    visibility: visible
+}
+  
+.background-music-bottom-left .background-music-embed {
+    right: auto;
+    left: 0
+}
+
+#player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:40px;
+    width: 40px;
+    padding: 12px 18px;
+    z-index: 2;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+}
+
+.pause {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+}
