@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: "Dancing Script";
-    color: #ffffff;
+    color: #000000;
 }
 
 ::selection {
@@ -34,7 +34,7 @@ h2 {
 
 p {
     font-family: "Bellota";
-    color: #ffffff;
+    color: #000000;
 }
 
 .headerWord {
@@ -82,10 +82,10 @@ img {
 .event-show {
     background-image: url("https://github.com/save-the-date/wedding-invitation-tridinh-s2-anhlan/raw/main/static/media/TIME-LOVE.png");
     background-size: cover;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     padding-top: 30px;
     padding-bottom: 30px;
-    border-radius: 16px;
+    /* border-radius: 16px; */
     font-size: 1.45em;
 }
 
